@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="cda3789b-edbf-45b6-9964-c2d55de42ecd"
+  name="Interface"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="9f8da00b-9367-41ef-83f2-0cca3e279dfb"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DStrategyPattern.Interface"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="962708cb-a861-43ff-b3a0-84e3cd8d6256"
+        name="ISortStrategy"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="376d3c7c-8598-4653-b1a7-857d4efeddd5"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FStrategy Pattern%2FStrategyPattern%2Fbin%2FDebug%2FStrategyPattern.exe&quot; Namespace%3DStrategyPattern.Interface Type%3DISortStrategy"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="640c7355-480c-45fb-9577-045e70841b35"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c20380f2-a968-426e-b4a6-015250ae0426">
+                <propertyInstance
+                  Id="245298f8-a6ed-41e8-91ee-d80fe884abf5"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b4df78f6-3d89-40f2-ac58-30c406f950b0">
+                <propertyInstance
+                  Id="1a45fe02-1b08-4982-aa15-af0167a69e45"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2c410a32-19ad-45db-b657-f9912e306a3a">
+                <propertyInstance
+                  Id="e577b2a0-fa19-4ccf-82c7-4b8a08faf87d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="03bf524b-f82b-4cf9-8772-2df5a7f6e2cc">
+                <propertyInstance
+                  Id="da6a41be-ce16-453c-9a2d-75561e1562aa"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="058488d5-92d1-4e1b-bc64-4db27c89d2e3"
+            name="SortNumbers"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="99723e2e-7197-4d7c-8d7b-0cf807ae1472"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FStrategy Pattern%2FStrategyPattern%2Fbin%2FDebug%2FStrategyPattern.exe&quot; Namespace%3DStrategyPattern.Interface Type%3DISortStrategy Member%3D(Name%3DSortNumbers OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6f16a305-e427-49c5-98ef-9af44d4d3643"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8789ec43-9aa3-4a3f-978d-29a11ace8227">
+                    <propertyInstance
+                      Id="7c5c0cdc-ca2e-4181-9c50-72a1717fb204"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67257a5f-8d98-48c4-916d-febc2a1b1297">
+                    <propertyInstance
+                      Id="99a21a43-6feb-447e-b4ef-a58d9398535e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34d74179-b977-42d5-944f-4a3c71f222e0">
+                    <propertyInstance
+                      Id="89c8eec1-15e5-496b-a907-b157c5e9b68b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9bfd7cd4-2355-4970-b3c9-4950731b4e46">
+                    <propertyInstance
+                      Id="9d491572-a9f1-4d2c-b4df-683b461a1d27"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9236a77-798e-4884-b8df-d967fb7c4fd4">
+                    <propertyInstance
+                      Id="3ccf0047-32dd-41a9-8877-52e01f4f8f87"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="205422b8-8339-4a36-9255-3130507dd760">
+                    <propertyInstance
+                      Id="b48ac71d-6fde-467c-9ff3-03b0d9e647e3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="67ab208a-a20f-4c56-ba6f-287d5f649499"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="53dce339-3b81-4bcb-867d-6a3e99e9c57b"
+                      LastKnownName="List&lt;Int32‎&gt;"
+                      LastKnownLocation="Package4_1210.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b5afa501-cd2b-4015-be45-27def6ffd70e"
+                  name="NumbersToSort"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="fac185dd-be17-47e1-8a49-72cf930d7aed"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FStrategy Pattern%2FStrategyPattern%2Fbin%2FDebug%2FStrategyPattern.exe&quot; Namespace%3DStrategyPattern.Interface Type%3DISortStrategy Member%3D(Name%3DSortNumbers OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]))]) ParameterIdentifier%3DNumbersToSort"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="53dce339-3b81-4bcb-867d-6a3e99e9c57b"
+                      LastKnownName="List&lt;Int32‎&gt;"
+                      LastKnownLocation="Package4_1210.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

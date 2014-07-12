@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="aae48672-efdd-4caf-b5c5-5b012f85b49b"
+  name="Context"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="d1f5f2de-2680-4863-a308-f77bf03d757d"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DStrategyPattern.Context"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="07253e8d-2533-4a79-ba97-92b5a8a6e07e"
+        name="SortContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f005f629-0dfe-4af5-9541-cfeab775265d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FStrategy Pattern%2FStrategyPattern%2Fbin%2FDebug%2FStrategyPattern.exe&quot; Namespace%3DStrategyPattern.Context Type%3DSortContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e100d544-9363-4b7c-9c6f-dba792c178d9"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a3673974-0740-4b30-a359-8229f671b953">
+                <propertyInstance
+                  Id="4b5cd0c8-2e28-421b-a9a2-195e553d5ab1"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8006e152-139d-4179-89bb-b7338a9d1b17">
+                <propertyInstance
+                  Id="b931d73f-007b-485d-a0f3-55f3089937a1"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0300435d-b07f-4768-b8f0-66afd3263b3e">
+                <propertyInstance
+                  Id="42c070b5-eacd-46b8-8cd6-405ffe37c3fe"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b3c4fea7-4064-4cbe-82e3-fab99f5396e9">
+                <propertyInstance
+                  Id="b7fd93d7-4bee-48cf-af1b-8f475dec7130"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="128510ca-6a44-4352-8217-afe5cc6ea233">
+                <propertyInstance
+                  Id="8844bb20-6f5a-48df-ab1b-f4bad930535f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="5ff8992d-a771-4405-83a5-0ebfa8051a67"
+            isDerived="false"
+            sourceEndRoleName="SortContext"
+            targetEndRoleName="NumbersToSort"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="53dce339-3b81-4bcb-867d-6a3e99e9c57b"
+              LastKnownName="List&lt;Int32‎&gt;"
+              LastKnownLocation="Package4_1210.uml" />
+            <description>Property NumbersToSort references type List&lt;Int32‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e7d24430-dff0-472b-a6af-4365be90687f"
+                  name="SortContext"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="3ba05a91-81f9-4f9e-bd01-39d0856b156f"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="a1d39c0f-a4e0-4071-99a1-94539e020ba1"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c2dc47bd-6f4e-41e7-bf91-dfb35f1312a7"
+                  name="NumbersToSort"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="4f243b29-7026-4725-847f-694a793b7ba5"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="4f5f123c-9d1a-4d2a-973e-0e7263f3fba4"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="04fc04a7-3d16-43cc-8457-c1815370124a"
+            isDerived="false"
+            sourceEndRoleName="SortContext"
+            targetEndRoleName="SortAlgorithm"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="962708cb-a861-43ff-b3a0-84e3cd8d6256"
+              LastKnownName="ISortStrategy"
+              LastKnownLocation="Package5_1210.uml" />
+            <description>Property SortAlgorithm references type ISortStrategy.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="87ede2fb-e05c-47fe-88fe-eb85c6d8ee95"
+                  name="SortContext"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="7119af7d-b911-499d-ae62-44a1be055e60"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="821948be-346a-4d47-a189-80346f433be8"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a8f8941b-85ed-4d4c-9b7e-f0686b67f4c3"
+                  name="SortAlgorithm"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="8a107a8d-068a-4938-9587-1241037da1f6"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="72954a7f-ed8f-4638-83c6-e86f3402ad53"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="935f0316-094f-4a52-8463-868a2b55f930"
+            name="NumbersToSort"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="26429a80-750f-4437-a26d-bc1f09dfe89b"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FStrategy Pattern%2FStrategyPattern%2Fbin%2FDebug%2FStrategyPattern.exe&quot; Namespace%3DStrategyPattern.Context Type%3DSortContext Member%3DNumbersToSort"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c8dc78d0-c378-49b2-a5c0-d5fe251dcc1c"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7524bfff-03c9-4a73-abf1-083265faf85f">
+                    <propertyInstance
+                      Id="81bbdb8d-196d-40cb-8210-f24c648fbd34"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eecae670-ccb3-4666-8ea8-5c5039fa69c9">
+                    <propertyInstance
+                      Id="fc1d9c5b-ee93-4bf3-9ec0-ef0da75b4153"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8771799e-1862-40ad-8723-fc418653575a">
+                    <propertyInstance
+                      Id="fdfdd084-9098-424f-b237-6cd552b496dd"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5ff3aad-3515-4c3c-80ab-b5554aa8fc95">
+                    <propertyInstance
+                      Id="689d9e03-da01-49ad-9b64-7b7b2271d63d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="55f701ab-1c8c-440b-adbe-3758e107b128">
+                    <propertyInstance
+                      Id="e7652990-913c-4d82-852e-894116a051ed"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d4109ce-9f07-44f6-bd55-42331ba77a1d">
+                    <propertyInstance
+                      Id="e043933f-a3d0-4c07-a25b-a4b2e08cf30a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03c72455-eb7e-40d0-b351-3c04785deb30">
+                    <propertyInstance
+                      Id="86a0daa8-81f6-4b57-b59e-04e5219a61b5"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="53dce339-3b81-4bcb-867d-6a3e99e9c57b"
+                LastKnownName="List&lt;Int32‎&gt;"
+                LastKnownLocation="Package4_1210.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="858c6259-fbf8-4d2f-bcc5-389e50002878"
+            name="SortAlgorithm"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8abc294a-4664-4954-ae37-7bfe99f68fde"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FStrategy Pattern%2FStrategyPattern%2Fbin%2FDebug%2FStrategyPattern.exe&quot; Namespace%3DStrategyPattern.Context Type%3DSortContext Member%3DSortAlgorithm"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="74186d83-fdb9-4ace-a8e7-fdf18d66d87f"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e2469fc-9975-4976-9bcb-56abcd39e203">
+                    <propertyInstance
+                      Id="be5d2f89-03ad-4d94-b8ec-505760f20415"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f554c64-fa04-4d6d-a7e0-b307668dff3f">
+                    <propertyInstance
+                      Id="2212a8b8-8b6a-46fc-a443-f60681b91930"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aca84246-f975-4969-bf85-fbd37346fb0e">
+                    <propertyInstance
+                      Id="791b500e-aff1-41eb-8d0c-4d2e30b185b8"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d233eb9a-86c0-4a3e-8793-46419d0e3938">
+                    <propertyInstance
+                      Id="6406833c-fa30-4695-9069-9655b660581e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0981669-0710-410e-9b93-4041d46b9774">
+                    <propertyInstance
+                      Id="83c88697-dd46-4d3e-9af0-8b363a252dfb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35ab0c1e-5f89-41a9-abf4-38f7c1762169">
+                    <propertyInstance
+                      Id="53bdb965-eeb1-4bd3-a1d5-5c1d3d51666b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab9f627b-7bb6-4f01-8079-7795c667100a">
+                    <propertyInstance
+                      Id="9d3b12c9-9428-4697-bf2f-0b59568f6ab1"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="962708cb-a861-43ff-b3a0-84e3cd8d6256"
+                LastKnownName="ISortStrategy"
+                LastKnownLocation="Package5_1210.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="ce66ccbe-da79-411c-a1f9-072317f584d5"
+            name="SortContext"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4c1fb71d-de10-410e-8079-17b7a4c55bd1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FStrategy Pattern%2FStrategyPattern%2Fbin%2FDebug%2FStrategyPattern.exe&quot; Namespace%3DStrategyPattern.Context Type%3DSortContext Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ebc3ce90-9a07-4dfb-a992-deb62e454387"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a89c08c-302a-4ff1-b777-3fb1fabfd85a">
+                    <propertyInstance
+                      Id="30f28f43-1b49-4862-837b-c4a10e816e3c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2604420-d317-4e14-8922-9bfdddedc175">
+                    <propertyInstance
+                      Id="e61882f7-b7a5-4dcd-8449-63f6369115ec"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78e9c628-69e3-4e44-afb4-b6e9eef6c7a3">
+                    <propertyInstance
+                      Id="825f47aa-97b8-49a4-8266-98377f9698d7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36b6d425-cce7-4c87-8b62-7dfd9e077dee">
+                    <propertyInstance
+                      Id="fba597e9-5f58-456b-830f-ad350f2e51d6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53987c1f-b557-41ac-8bff-578f30dc647f">
+                    <propertyInstance
+                      Id="ef14bcce-8fd1-4514-b274-540add527276"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67c4923d-e879-41f7-9d38-03047ea2fc0b">
+                    <propertyInstance
+                      Id="1d189571-4271-43dd-b286-f1b800ad3f0e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="9bad427a-1a94-45c6-a569-79fd533f53ca"
+            name="GetSortedNumbers"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1b245840-e952-4d78-8733-1fadb5675160"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FStrategy Pattern%2FStrategyPattern%2Fbin%2FDebug%2FStrategyPattern.exe&quot; Namespace%3DStrategyPattern.Context Type%3DSortContext Member%3DGetSortedNumbers"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="91b359a4-9ab5-41b4-be8c-b19b28c5a093"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba1e9291-a664-4c41-86ea-f9850188e653">
+                    <propertyInstance
+                      Id="77256ad3-75d7-45bc-b18f-1a9142013388"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60e2e45b-c0bd-4a16-98a3-5710b747f02c">
+                    <propertyInstance
+                      Id="7ad04d5b-a6b8-42c8-bb96-54e59fa1b7bc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9a4e45a-9796-4ff9-b34a-91091c5a4d41">
+                    <propertyInstance
+                      Id="ced9a02e-7408-480a-9a7a-e697d44c2848"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29f635a9-1542-4596-9d18-4fdf61b538f6">
+                    <propertyInstance
+                      Id="d3c47081-1df3-4dfa-b8b7-03c27e12a80f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3cf82e85-f324-4dd1-bbd9-2e05b3116e43">
+                    <propertyInstance
+                      Id="81c9fa61-006b-4e80-a7eb-056b20cd6c85"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="efc76fdf-e3fe-45d2-b8fc-4d20c3b0ac24">
+                    <propertyInstance
+                      Id="cc0891f3-c697-4ded-8bc0-dae184a4cc01"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8d101b95-0680-4d73-83ba-0e57cec36f4d"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="53dce339-3b81-4bcb-867d-6a3e99e9c57b"
+                      LastKnownName="List&lt;Int32‎&gt;"
+                      LastKnownLocation="Package4_1210.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
